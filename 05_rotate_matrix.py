@@ -64,7 +64,20 @@ import unittest
 
 def rotate_matrix(lst, side):
   rotated_list = []
-  # write your code here
+  len_i=len(lst)
+  len_j=len(lst[0])
+  if(side =="right"):
+    for i in range(len_j):
+      current_row=[]
+      for j in range(len_i-1, -1 , -1):
+        current_row.append(lst[j][i])
+      rotated_list.append(current_row)
+  else:
+     for i in range(len_j-1, -1, -1):
+       current_row=[]
+       for j in range(len_i):
+         current_row.append(lst[j][i])
+       rotated_list.append(current_row)
   return rotated_list
 
 
