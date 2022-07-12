@@ -45,7 +45,18 @@ import unittest
 
 def equal_opportunity(lst):
   equals = []
-  # write your code here
+  k=-1
+  for j in lst:
+    k=k+1
+    g=0
+    b=0
+    for i in j:
+      if i==0:
+        g=g+1
+      else:
+        b=b+1
+    if g==b:
+      equals.append(k)
   return equals
 
 
