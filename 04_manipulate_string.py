@@ -13,7 +13,15 @@ import unittest
 def manipulate_string(S,C):
   i = 0
   ansst = ""
-  # write your code here
+  length=len(S)
+  previous=0
+  temp_s=list(S)
+  while(S.find(C,previous) !=-1):
+    index=S.find(C,previous)
+    temp_s[index-1], temp_s[index+1] = temp_s[index+1], temp_s[index-1]
+    previous=index+1
+  for r in temp_s:
+    ansst += r
   return ansst
 
 
