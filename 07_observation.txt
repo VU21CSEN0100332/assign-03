@@ -1,1 +1,43 @@
-# Write down your observations and what did you learn new - in this file
+What is first logic that you thought for solving the problem?
+    first I assumed the no of girls and boys to be zero and then next if the no of boys and girls are equal in the list then the row number of
+    that list in the given list is appended to the list which is to be returned.
+  + What is the problems you faced while implementing your first logic?
+    Problem I faced is I did not get to understand how to take the row number.
+  + Did you modify the logic to solve it or the first logic worked?
+    I modified the logic.
+
+2)+ What is first logic that you thought for solving the problem?
+    First I retrieved the individual lists in given list and then by using sort function the list is sorted and then appended the sorted list
+    into a new list and returned it.
+  + What is the problems you faced while implementing your first logic?
+    I did not face any problem in this program.
+  + Did you modify the logic to solve it or the first logic worked?
+    No, I did not modify the logic.
+
+3)+ What is first logic that you thought for solving the problem?
+    first I sorted the whole list and then divided the list into lists each containing 3 numbers using for loop and if statement.
+  + What is the problems you faced while implementing your first logic?
+    I faced a problem while executing the code since the given test case-3 is not similiar to that of 1 and 2, here the list is having 4
+    numbers but test cases 1 and 2 have 3 numbers.
+  + Did you modify the logic to solve it or the first logic worked?
+    Yes, I modified the logic
+
+    4)+ What is first logic that you thought for solving the problem?
+        first logic was to declared another auxillary string of same size and copy the ith element so that the position is shifted to new declared string and manipulated string
+       +  What is the problems you faced while implementing your first logic?
+         i forget to calculate length of string and mentioned =1 instead of !=1
+       + Did you modify the logic to solve it or the first logic worked?
+           i modified the logic to solve it
+
+     5)+ What is first logic that you thought for solving the problem?
+         the logic i thought was to get the matrix and then to rotate the matrix by using loops and by side and append the rows.
+        + what is the problems you faced while implementing your first logic?
+          i wrote the wrong statement for range in for loop
+        +  Did you modify the logic to solve it or the first logic worked?
+          yes, i modified my logic to solve it
+
+      6)+What is first logic that you thought for solving the problem?
+           first i thought to use lambda function and changed  to create a variable and assign them a list as an argument to hold the list of all dictionary values and to find max and min values and to print thier key.
+        +what is the problems you faced while implementing your first logic?
+          at first i didn't used break which is loop control statement and mismatched some brackets
+        + yeah,i modified my program
