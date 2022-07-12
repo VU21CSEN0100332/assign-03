@@ -57,7 +57,9 @@ import unittest
 
 def sort_rows(lst):
   sorted_list = []
-
+  for j in lst:
+    j.sort()
+    sorted_list.append(j)
   return sorted_list
 
 class Dict_to_list(unittest.TestCase):
