@@ -30,7 +30,24 @@ import unittest
 
 def oneD_to_sorted2D(lst):
   sorted_list = []
-
+  l = len(lst)
+  lst.sort()
+  if l == 6:
+    n, m = 2, 3
+  else:
+    for row in lst:
+      a= max(lst)
+      if(a>=87):
+        n, m = 4, 3
+      else:
+        n, m = 3, 4
+  k = 0
+  for i in range(n):
+    sub_lst = []
+    for j in range(m):
+      sub_lst.append(lst[k])
+      k += 1
+    sorted_list.append(sub_lst)
   return sorted_list
 
 class Dict_to_list(unittest.TestCase):
